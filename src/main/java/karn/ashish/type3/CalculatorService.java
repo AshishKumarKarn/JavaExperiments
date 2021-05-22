@@ -6,7 +6,7 @@ public class CalculatorService {
     @Inject
     private Calculator calculator;
 
-    public int calculate(int a,int b, String oper){
+    public double calculate(double a,double b, String oper){
         if(oper.equals("add")){
             return calculator.add(a,b);
         }
